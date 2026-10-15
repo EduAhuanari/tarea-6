@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominando la Fuerza del CSS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Menú con posición Sticky -->
+    <header class="menu-sticky">
+        <nav>
+            <a href="#personajes">Personajes</a>
+            <a href="#naves">Naves</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección principal con función calc() -->
+    <main class="hero-section">
+        <h1>DOMINANDO LA FUERZA DEL CSS</h1>
+        <p>Posicionamiento, Filtros y Transformaciones</p>
+    </main>
+
+    <!-- Sección de tarjetas con posición Relative -->
+    <section class="tarjetas-container">
+        
+        <!-- Tarjeta 1: Luke Skywalker -->
+        <div class="card relative-container">
+            <!-- Posición Absolute (Etiqueta) -->
+            <span class="badge jedi">JEDI</span>
+            <div class="img-wrapper">
+                <img src="imagenes/luke jpg.webp" alt="Luke Skywalker" class="card-img">
+            </div>
+            <div class="card-content">
+                <h2>Luke Skywalker</h2>
+                <p>El último caballero Jedi.</p>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2: Darth Vader -->
+        <div class="card relative-container">
+            <!-- Posición Absolute (Etiqueta) -->
+            <span class="badge sith">SITH</span>
+            <div class="img-wrapper">
+                <img src="imagenes/dark jpg.jpg" alt="Darth Vader" class="card-img">
+            </div>
+            <div class="card-content">
+                <h2>Darth Vader</h2>
+                <p>Señor oscuro del Imperio.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Botón con posición Fixed -->
+    <a href="#" class="btn-fixed" title="Subir">↑</a>
+
+</body>
+</html>
